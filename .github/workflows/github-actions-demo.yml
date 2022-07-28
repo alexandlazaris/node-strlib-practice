@@ -10,7 +10,8 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
+      - name: Install test dependencies
+        run: npm install
       - name: Run unit tests 
-        run: yarn install
-        run: yarn test
+        run: npm test
       - run: echo "🍏 This job's status is ${{ job.status }}."
