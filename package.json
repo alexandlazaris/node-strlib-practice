@@ -1,9 +1,9 @@
 {
-  "name": "yarn-strlib",
+  "name": "node-strlib-practice",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:alexandlazaris/yarn-strlib.git",
-  "author": "Alexander Lazaris <alexander.lazaris@weareroam.com>",
+  "repository": "git@github.com:alexandlazaris/node-strlib-practice",
+  "author": "Alexander Lazaris <alex.lazaris617@gmail.com>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
